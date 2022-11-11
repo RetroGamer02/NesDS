@@ -25,7 +25,7 @@ DATA		:=
 #---------------------------------------------------------------------------------
 ARCH	:=	-marm -mthumb-interwork
 
-CFLAGS	:=	-Wall -O2 -DNO_VIZ\
+CFLAGS	:=	-Wall -O3 -DNO_VIZ\
  			-march=armv5te -mtune=arm946e-s -fomit-frame-pointer\
 			-ffast-math \
 			$(ARCH)
